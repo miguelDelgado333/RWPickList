@@ -10,6 +10,27 @@
 		03361E4B25E8DA1B00F026F6 /* RWPickFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03361E4125E8DA1A00F026F6 /* RWPickFramework.framework */; };
 		03361E5025E8DA1B00F026F6 /* RWPickFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03361E4F25E8DA1B00F026F6 /* RWPickFrameworkTests.swift */; };
 		03361E5225E8DA1B00F026F6 /* RWPickFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 03361E4425E8DA1A00F026F6 /* RWPickFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03361E8C25E8E01200F026F6 /* Examen_Miguel_Delgado.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03361E6225E8E01200F026F6 /* Examen_Miguel_Delgado.xcdatamodeld */; };
+		03361E8D25E8E01200F026F6 /* LocalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03361E6725E8E01200F026F6 /* LocalData.swift */; };
+		03361E8E25E8E01200F026F6 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03361E6925E8E01200F026F6 /* LoginPresenter.swift */; };
+		03361E8F25E8E01200F026F6 /* LoginProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03361E6B25E8E01200F026F6 /* LoginProtocol.swift */; };
+		03361E9025E8E01200F026F6 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03361E6D25E8E01200F026F6 /* LoginModel.swift */; };
+		03361E9125E8E01200F026F6 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03361E6F25E8E01200F026F6 /* LoginViewController.xib */; };
+		03361E9225E8E01200F026F6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03361E7025E8E01200F026F6 /* LoginViewController.swift */; };
+		03361E9325E8E01200F026F6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03361E7225E8E01200F026F6 /* Constants.swift */; };
+		03361E9425E8E01200F026F6 /* AESEncryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03361E7325E8E01200F026F6 /* AESEncryption.swift */; };
+		03361E9525E8E01200F026F6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03361E7625E8E01200F026F6 /* DetailViewController.swift */; };
+		03361E9625E8E01200F026F6 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03361E7725E8E01200F026F6 /* DetailViewController.xib */; };
+		03361E9725E8E01200F026F6 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03361E7925E8E01200F026F6 /* DetailPresenter.swift */; };
+		03361E9825E8E01200F026F6 /* DetailProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03361E7B25E8E01200F026F6 /* DetailProtocol.swift */; };
+		03361E9925E8E01200F026F6 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03361E7E25E8E01200F026F6 /* HomePresenter.swift */; };
+		03361E9A25E8E01200F026F6 /* HomeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03361E8025E8E01200F026F6 /* HomeProtocol.swift */; };
+		03361E9B25E8E01200F026F6 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03361E8225E8E01200F026F6 /* HomeModel.swift */; };
+		03361E9C25E8E01200F026F6 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03361E8425E8E01200F026F6 /* HomeViewController.xib */; };
+		03361E9D25E8E01200F026F6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03361E8525E8E01200F026F6 /* HomeViewController.swift */; };
+		03361E9E25E8E01200F026F6 /* InformationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03361E8725E8E01200F026F6 /* InformationTableViewCell.swift */; };
+		03361E9F25E8E01200F026F6 /* InformationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03361E8825E8E01200F026F6 /* InformationTableViewCell.xib */; };
+		03361EA025E8E01200F026F6 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03361E8B25E8E01200F026F6 /* Service.swift */; };
 		73371F260E0A3C0842DFB8E3 /* Pods_RWPickFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4500C502C3E65183E810BF /* Pods_RWPickFramework.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +51,27 @@
 		03361E4A25E8DA1B00F026F6 /* RWPickFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RWPickFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03361E4F25E8DA1B00F026F6 /* RWPickFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RWPickFrameworkTests.swift; sourceTree = "<group>"; };
 		03361E5125E8DA1B00F026F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03361E6325E8E01200F026F6 /* Examen_Miguel_Delgado.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Examen_Miguel_Delgado.xcdatamodel; sourceTree = "<group>"; };
+		03361E6725E8E01200F026F6 /* LocalData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalData.swift; sourceTree = "<group>"; };
+		03361E6925E8E01200F026F6 /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		03361E6B25E8E01200F026F6 /* LoginProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginProtocol.swift; sourceTree = "<group>"; };
+		03361E6D25E8E01200F026F6 /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		03361E6F25E8E01200F026F6 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		03361E7025E8E01200F026F6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		03361E7225E8E01200F026F6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		03361E7325E8E01200F026F6 /* AESEncryption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AESEncryption.swift; sourceTree = "<group>"; };
+		03361E7625E8E01200F026F6 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		03361E7725E8E01200F026F6 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		03361E7925E8E01200F026F6 /* DetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		03361E7B25E8E01200F026F6 /* DetailProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailProtocol.swift; sourceTree = "<group>"; };
+		03361E7E25E8E01200F026F6 /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		03361E8025E8E01200F026F6 /* HomeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeProtocol.swift; sourceTree = "<group>"; };
+		03361E8225E8E01200F026F6 /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		03361E8425E8E01200F026F6 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		03361E8525E8E01200F026F6 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		03361E8725E8E01200F026F6 /* InformationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationTableViewCell.swift; sourceTree = "<group>"; };
+		03361E8825E8E01200F026F6 /* InformationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InformationTableViewCell.xib; sourceTree = "<group>"; };
+		03361E8B25E8E01200F026F6 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		0C4500C502C3E65183E810BF /* Pods_RWPickFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RWPickFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		700FA273AC7C16E95A851447 /* Pods-RWPickFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWPickFramework.debug.xcconfig"; path = "Target Support Files/Pods-RWPickFramework/Pods-RWPickFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		98E40A0B5C7698D066ADC4E6 /* Pods-RWPickFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWPickFramework.release.xcconfig"; path = "Target Support Files/Pods-RWPickFramework/Pods-RWPickFramework.release.xcconfig"; sourceTree = "<group>"; };
@@ -78,6 +120,11 @@
 		03361E4325E8DA1A00F026F6 /* RWPickFramework */ = {
 			isa = PBXGroup;
 			children = (
+				03361E7425E8E01200F026F6 /* Detail */,
+				03361E6225E8E01200F026F6 /* Examen_Miguel_Delgado.xcdatamodeld */,
+				03361E7C25E8E01200F026F6 /* Home */,
+				03361E6425E8E01200F026F6 /* Login */,
+				03361E7125E8E01200F026F6 /* Utility */,
 				03361E4425E8DA1A00F026F6 /* RWPickFramework.h */,
 				03361E4525E8DA1A00F026F6 /* Info.plist */,
 			);
@@ -93,13 +140,188 @@
 			path = RWPickFrameworkTests;
 			sourceTree = "<group>";
 		};
+		03361E6425E8E01200F026F6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				03361E6525E8E01200F026F6 /* LoginDataManager */,
+				03361E6825E8E01200F026F6 /* LoginPresenter */,
+				03361E6A25E8E01200F026F6 /* LoginProtocol */,
+				03361E6C25E8E01200F026F6 /* LoginModel */,
+				03361E6E25E8E01200F026F6 /* LoginView */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		03361E6525E8E01200F026F6 /* LoginDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				03361E6625E8E01200F026F6 /* LocalData */,
+			);
+			path = LoginDataManager;
+			sourceTree = "<group>";
+		};
+		03361E6625E8E01200F026F6 /* LocalData */ = {
+			isa = PBXGroup;
+			children = (
+				03361E6725E8E01200F026F6 /* LocalData.swift */,
+			);
+			path = LocalData;
+			sourceTree = "<group>";
+		};
+		03361E6825E8E01200F026F6 /* LoginPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				03361E6925E8E01200F026F6 /* LoginPresenter.swift */,
+			);
+			path = LoginPresenter;
+			sourceTree = "<group>";
+		};
+		03361E6A25E8E01200F026F6 /* LoginProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				03361E6B25E8E01200F026F6 /* LoginProtocol.swift */,
+			);
+			path = LoginProtocol;
+			sourceTree = "<group>";
+		};
+		03361E6C25E8E01200F026F6 /* LoginModel */ = {
+			isa = PBXGroup;
+			children = (
+				03361E6D25E8E01200F026F6 /* LoginModel.swift */,
+			);
+			path = LoginModel;
+			sourceTree = "<group>";
+		};
+		03361E6E25E8E01200F026F6 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				03361E6F25E8E01200F026F6 /* LoginViewController.xib */,
+				03361E7025E8E01200F026F6 /* LoginViewController.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		03361E7125E8E01200F026F6 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				03361E7225E8E01200F026F6 /* Constants.swift */,
+				03361E7325E8E01200F026F6 /* AESEncryption.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		03361E7425E8E01200F026F6 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				03361E7525E8E01200F026F6 /* DetailView */,
+				03361E7825E8E01200F026F6 /* DetailPresenter */,
+				03361E7A25E8E01200F026F6 /* DetailProtocol */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		03361E7525E8E01200F026F6 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				03361E7625E8E01200F026F6 /* DetailViewController.swift */,
+				03361E7725E8E01200F026F6 /* DetailViewController.xib */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		03361E7825E8E01200F026F6 /* DetailPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				03361E7925E8E01200F026F6 /* DetailPresenter.swift */,
+			);
+			path = DetailPresenter;
+			sourceTree = "<group>";
+		};
+		03361E7A25E8E01200F026F6 /* DetailProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				03361E7B25E8E01200F026F6 /* DetailProtocol.swift */,
+			);
+			path = DetailProtocol;
+			sourceTree = "<group>";
+		};
+		03361E7C25E8E01200F026F6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				03361E7D25E8E01200F026F6 /* HomePresenter */,
+				03361E7F25E8E01200F026F6 /* HomeProtocol */,
+				03361E8125E8E01200F026F6 /* HomeModel */,
+				03361E8325E8E01200F026F6 /* HomeView */,
+				03361E8925E8E01200F026F6 /* HomeDataManager */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		03361E7D25E8E01200F026F6 /* HomePresenter */ = {
+			isa = PBXGroup;
+			children = (
+				03361E7E25E8E01200F026F6 /* HomePresenter.swift */,
+			);
+			path = HomePresenter;
+			sourceTree = "<group>";
+		};
+		03361E7F25E8E01200F026F6 /* HomeProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				03361E8025E8E01200F026F6 /* HomeProtocol.swift */,
+			);
+			path = HomeProtocol;
+			sourceTree = "<group>";
+		};
+		03361E8125E8E01200F026F6 /* HomeModel */ = {
+			isa = PBXGroup;
+			children = (
+				03361E8225E8E01200F026F6 /* HomeModel.swift */,
+			);
+			path = HomeModel;
+			sourceTree = "<group>";
+		};
+		03361E8325E8E01200F026F6 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				03361E8425E8E01200F026F6 /* HomeViewController.xib */,
+				03361E8525E8E01200F026F6 /* HomeViewController.swift */,
+				03361E8625E8E01200F026F6 /* cell */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		03361E8625E8E01200F026F6 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				03361E8725E8E01200F026F6 /* InformationTableViewCell.swift */,
+				03361E8825E8E01200F026F6 /* InformationTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		03361E8925E8E01200F026F6 /* HomeDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				03361E8A25E8E01200F026F6 /* API */,
+			);
+			path = HomeDataManager;
+			sourceTree = "<group>";
+		};
+		03361E8A25E8E01200F026F6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				03361E8B25E8E01200F026F6 /* Service.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		D515DCEA213CA134D65E0241 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				700FA273AC7C16E95A851447 /* Pods-RWPickFramework.debug.xcconfig */,
 				98E40A0B5C7698D066ADC4E6 /* Pods-RWPickFramework.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -203,6 +425,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03361E9125E8E01200F026F6 /* LoginViewController.xib in Resources */,
+				03361E9625E8E01200F026F6 /* DetailViewController.xib in Resources */,
+				03361E9F25E8E01200F026F6 /* InformationTableViewCell.xib in Resources */,
+				03361E9C25E8E01200F026F6 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +471,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03361E9525E8E01200F026F6 /* DetailViewController.swift in Sources */,
+				03361E9225E8E01200F026F6 /* LoginViewController.swift in Sources */,
+				03361E9E25E8E01200F026F6 /* InformationTableViewCell.swift in Sources */,
+				03361E9025E8E01200F026F6 /* LoginModel.swift in Sources */,
+				03361E9925E8E01200F026F6 /* HomePresenter.swift in Sources */,
+				03361E9725E8E01200F026F6 /* DetailPresenter.swift in Sources */,
+				03361E9D25E8E01200F026F6 /* HomeViewController.swift in Sources */,
+				03361E9425E8E01200F026F6 /* AESEncryption.swift in Sources */,
+				03361E8E25E8E01200F026F6 /* LoginPresenter.swift in Sources */,
+				03361E8F25E8E01200F026F6 /* LoginProtocol.swift in Sources */,
+				03361E9825E8E01200F026F6 /* DetailProtocol.swift in Sources */,
+				03361EA025E8E01200F026F6 /* Service.swift in Sources */,
+				03361E9A25E8E01200F026F6 /* HomeProtocol.swift in Sources */,
+				03361E9B25E8E01200F026F6 /* HomeModel.swift in Sources */,
+				03361E9325E8E01200F026F6 /* Constants.swift in Sources */,
+				03361E8C25E8E01200F026F6 /* Examen_Miguel_Delgado.xcdatamodeld in Sources */,
+				03361E8D25E8E01200F026F6 /* LocalData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +685,7 @@
 		03361E5925E8DA1B00F026F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z4A4QZN3FC;
 				INFOPLIST_FILE = RWPickFrameworkTests/Info.plist;
@@ -460,6 +704,7 @@
 		03361E5A25E8DA1B00F026F6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z4A4QZN3FC;
 				INFOPLIST_FILE = RWPickFrameworkTests/Info.plist;
@@ -506,6 +751,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		03361E6225E8E01200F026F6 /* Examen_Miguel_Delgado.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				03361E6325E8E01200F026F6 /* Examen_Miguel_Delgado.xcdatamodel */,
+			);
+			currentVersion = 03361E6325E8E01200F026F6 /* Examen_Miguel_Delgado.xcdatamodel */;
+			path = Examen_Miguel_Delgado.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 03361E3825E8DA1A00F026F6 /* Project object */;
 }

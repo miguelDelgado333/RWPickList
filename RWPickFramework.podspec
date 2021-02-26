@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name           = "RWPickFramework"
-  spec.version        = "1.0.2"
+  spec.version        = "1.0.3"
   spec.summary        = "Elegant Login"
   spec.homepage       = "https://github.com/miguelDelgado333/RWPickList"
   spec.license        = "IMT"

@@ -20,7 +20,7 @@ class NetworkingService {
   func getPeople(completion: @escaping ([Information]) -> ()) {
 
     let urlString: String = "https://www.mindicador.cl/api"
-    Alamofire.request(urlString, method: .get, encoding: URLEncoding(destination: .queryString)).responseString { response in
+    AF.request(urlString, method: .get, encoding: URLEncoding(destination: .queryString)).responseString { response in
         switch response.result {
         case .success(let json):
           let jsonData = json.data(using: .utf8)!
